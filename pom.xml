@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sap.startupfocus</groupId>
+  <artifactId>hana-sso-jwt</artifactId>
+  <version>1.0.0</version>
+
+  <dependencies>
+	<dependency>
+    	<groupId>org.apache.logging.log4j</groupId>
+    	<artifactId>log4j-core</artifactId>
+    	<version>2.7</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-core</artifactId>
+    	<version>5.2.4.Final</version>
+	</dependency>
+	<dependency>
+    	<groupId>com.sap.startupfocus.hana</groupId>
+    	<artifactId>ngdbc</artifactId>
+    	<version>1.0</version>
+    	<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/ngdbc.jar</systemPath>
+	</dependency>
+	<dependency>
+    	<groupId>com.auth0</groupId>
+    	<artifactId>java-jwt</artifactId>
+    	<version>3.2.0</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.bouncycastle</groupId>
+    	<artifactId>bcprov-jdk15on</artifactId>
+    	<version>1.57</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.bouncycastle</groupId>
+    	<artifactId>bcpkix-jdk15on</artifactId>
+    	<version>1.57</version>
+	</dependency>
+	<dependency>
+    <groupId>commons-lang</groupId>
+    <artifactId>commons-lang</artifactId>
+    <version>2.6</version>
+	</dependency>
+  </dependencies>
+</project>
